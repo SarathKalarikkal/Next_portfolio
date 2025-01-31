@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import Image from "next/image";
+// import Image from "next/image";
 import SectionHeader from "@/components/SectionHeader";
 import Card from "@/components/Card";
 
@@ -47,7 +47,7 @@ const qualifications = [
   },
 ];
 
-const Testimonials = () => {
+const Academics = () => {
   return (
     <div className="py-16 lg:py-24">
       <div className="container">
@@ -123,4 +123,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Academics;

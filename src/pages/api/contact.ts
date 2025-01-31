@@ -37,9 +37,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             subject:subject,
         })
         return res.status(200).json({ message: 'Form submitted successfully' });
-    } catch (error:any) {
+    } catch (error: unknown) {
+      if (error instanceof Error) {
         console.log(error);
         return res.status(400).json({ message: error.message });
+      }
+      return res.status(400).json({ message: 'An unknown error occurred' });
     }
 
   } else {
