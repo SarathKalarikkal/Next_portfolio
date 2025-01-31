@@ -30,9 +30,8 @@ const ContactCard = ({ setIsOpen }: { setIsOpen: (isOpen: boolean) => void }) =>
      setTimeout(()=>{
       setIsOpen(false)
      },1500)
-    } catch (error: any) {
+    } catch (error) {
       toast.error('Failed to send message. Please try again.');
-      console.error(error.message);
     }
   };
 
