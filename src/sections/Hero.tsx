@@ -64,17 +64,16 @@ const Hero = () => {
               <div className="bg-green-500 absolute animate-ping-large inset-0 rounded-full"></div>
             </div>
             <div className="text-sm font-medium">
-              Available for new projects
+            Hi, I&#39;m Sarath K
             </div>
           </div>
         </div>
         <div className="max-w-lg mx-auto">
-          <h1 className="font-serif md:text-5xl text-3xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experiences
-          </h1>
+          <h3 className="font-serif md:text-4xl text-3xl text-center mt-8 tracking-wide">
+          Crafting Engaging & Scalable Web Experiences
+          </h3>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            nisi consequatur laboriosam necessitatibus labore.
+          Bringing ideas with clean code, modern design, and seamless user experiences. Specializing in front-end and full-stack solutions.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
