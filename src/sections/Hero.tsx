@@ -84,7 +84,7 @@ const Hero = () => {
           </button>
           <button className="inline-flex items-center gap-2 border-white text-gray-900 bg-white px-6 h-12 rounded-xl">
             <span>👋</span>
-            <span className="font-semibold">Let's connect</span>
+            <span className="font-semibold">Lets connect</span>
           </button>
         </div>
       </div>

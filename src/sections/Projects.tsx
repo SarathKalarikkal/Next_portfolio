@@ -4,7 +4,7 @@ import movieFinder from '@/assets/images/movie-finder.png'
 import estoreLanding from '@/assets/images/e-store-landing.png'
 import CheckIcon from "@/assets/icons/check-circle.svg"
 import ArrowRightUpIcon from "@/assets/icons/arrow-up-right.svg"
-import grainImage from "@/assets/images/grain.jpg"
+// import grainImage from "@/assets/images/grain.jpg"
 import Image from 'next/image';
 import SectionHeader from '@/components/SectionHeader'
 import Card from '@/components/Card'
@@ -73,7 +73,7 @@ const Projects = () => {
                   <ul className='flex flex-col gap-4 mt-4 md:mt-5'>
                     {
                       project.results.map((result)=>(
-                        <li className='flex gap-2 text-sm text-white/50 md:text-base '>
+                        <li key={result.title} className='flex gap-2 text-sm text-white/50 md:text-base '>
                           <CheckIcon className="size-5 md:size-6" />
                          <span>{result.title}</span>
                         </li>
