@@ -80,7 +80,7 @@ const Projects = () => {
                       ))
                     }
                   </ul>
-                  <a href={project.link}>
+                  <a target='_blank' href={project.link}>
                     <button className='bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex justify-center items-center gap-2 mt-8 '>
                       <span>View live</span>
                       <ArrowRightUpIcon className="size-4" />

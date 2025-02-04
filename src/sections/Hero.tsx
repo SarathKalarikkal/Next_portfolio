@@ -76,14 +76,14 @@ const Hero = () => {
           Bringing ideas with clean code, modern design, and seamless user experiences. Specializing in front-end and full-stack solutions.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
+        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 relative z-50">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
-            <span className="font-semibold">Explore my work</span>
+            <a  href="#projects" className="font-semibold">Explore my work</a>
             <ArrowDown className="size-4" />
           </button>
           <button className="inline-flex items-center gap-2 border-white text-gray-900 bg-white px-6 h-12 rounded-xl">
             <span>👋</span>
-            <span className="font-semibold">Lets connect</span>
+            <a href="#contact" className="font-semibold">Lets connect</a>
           </button>
         </div>
       </div>

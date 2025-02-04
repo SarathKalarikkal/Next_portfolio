@@ -46,19 +46,19 @@ const ContactCard = ({ setIsOpen }: { setIsOpen: (isOpen: boolean) => void }) =>
         </div>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+            <label className="block mb-2 text-sm font-medium text-white">Name</label>
             <input type="text" name="name" className="input-wrap" placeholder="Your Name" value={form.name} onChange={handleChange} />
           </div>
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+            <label className="block mb-2 text-sm font-medium text-white">Email</label>
             <input type="email" name="email" className="input-wrap" placeholder="Your Email" value={form.email} onChange={handleChange} />
           </div>
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
+            <label className="block mb-2 text-sm font-medium text-white">Subject</label>
             <input type="text" name="subject" className="input-wrap" placeholder="Subject" value={form.subject} onChange={handleChange} />
           </div>
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
+            <label className="block mb-2 text-sm font-medium text-white">Message</label>
             <textarea rows={4} name="message" className="input-wrap" placeholder="Your Message" value={form.message} onChange={handleChange}></textarea>
           </div>
           <div className="flex justify-between">
